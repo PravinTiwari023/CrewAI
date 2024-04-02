@@ -1,0 +1,5 @@
+crewai
+langchain_core
+python-dotenv
+langchain_community
+invoke
