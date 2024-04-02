@@ -1,12 +1,13 @@
 from textwrap import dedent
 from crewai import Agent
+from tools import ExaSearchToolset
 
 class MeetingPrepAgents():
     def research_agent(self):
         return Agent(
             role="Research Specialist",
             goal="Conduct thorough research on people and companies involved in the meeting",
-            tools=[],
+            tools=ExaSearchToolset.tools(),
             backstory=dedent("""\
             As a Research Specialist, your mission is to uncover detailed information
             about the individuals and entities participating in the meeting. your insights
@@ -18,7 +19,7 @@ class MeetingPrepAgents():
         return Agent(
             role="Industry Analyst",
             goal="Analyze the current industry trends, challenges, and opportunities",
-            tools=[],
+            tools=ExaSearchToolset.tools(),
             backstory=dedent("""\
             As a Industry Analyst, your analysis will identify key trends,
             challenges facing the industry, and potential opportunities that
@@ -30,7 +31,7 @@ class MeetingPrepAgents():
         return Agent(
             role="Meeting Strategy Advisor",
             goal="Develop talking points, questions, and strategic angles for the meeting",
-            tools=[],
+            # tools=[],
             backstory=dedent("""\
             As a Strategy Advisor, your expertise will guide the development of
             talking points, insightful question, and strategic angles
@@ -42,7 +43,7 @@ class MeetingPrepAgents():
         return Agent(
             role="Briefing Coordinator",
             goal="Compile all gathered information into a concise, informative briefing document",
-            tools=[],
+            # tools=[],
             backstory=dedent("""\
             As the Briefing Coordinator, your roles is to consolidate the research,
             analysis, and strategic insights."""),
