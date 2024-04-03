@@ -4,6 +4,10 @@
 
 CrewAI is an innovative project aimed at leveraging the power of large language models (LLMs) for enhancing automation and intelligence in various applications. By integrating state-of-the-art models, CrewAI seeks to provide robust solutions for natural language processing, understanding, and generation, aiming to revolutionize how businesses and developers interact with AI technologies.
 
+Crew-ai system architecture:
+![Crew-AI Component](/media/crewai-diagram2.jpg "Crew-AI Component")
+
+
 ## Setting Up Your Project
 
 ### Installing Required Libraries
@@ -54,6 +58,8 @@ ollama create crewai-llama2 -f ./Llama2Modelfile
 
 This command will create a Large Language Model specifically tailored for CrewAI.
 
+Crew-AI architectue calls:
+![Crew-AI Component](/media/crewai-diagram1.jpg "Crew-AI Component")
 ### Additional Resources
 
 For more information or to obtain API keys, visit the following resources:
@@ -62,3 +68,6 @@ For more information or to obtain API keys, visit the following resources:
 - **Langchain:** [https://langchain.com/](https://langchain.com/)
 
 Following these steps will set up your project with CrewAI, integrating cutting-edge language models to power your applications.
+
+Interection between crew-ai Agents, Task and Tools
+![Crew-AI Component](/media/crewai-diagram.jpg "Crew-AI Component")

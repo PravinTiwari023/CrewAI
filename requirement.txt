@@ -4,3 +4,4 @@ python-dotenv
 langchain_community
 invoke
 exa_py
+streamlit
