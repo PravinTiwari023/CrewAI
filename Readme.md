@@ -1,6 +1,7 @@
 # CrewAI Project Documentation
 
 ## Brief Introduction to CrewAI
+![Crew-AI Component](/media/crewai-result.png "Crew-AI Component")
 
 CrewAI is an innovative project aimed at leveraging the power of large language models (LLMs) for enhancing automation and intelligence in various applications. By integrating state-of-the-art models, CrewAI seeks to provide robust solutions for natural language processing, understanding, and generation, aiming to revolutionize how businesses and developers interact with AI technologies.
 
